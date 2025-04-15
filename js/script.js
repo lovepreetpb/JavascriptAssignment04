@@ -1,5 +1,5 @@
 // Add student info dynamically
-document.getElementById("student-info").textContent = "Name: Your Name | ID: 123456789";
+document.getElementById("student-info").textContent = "Name: Lovepreet Singh | ID: 200597146";
 
 // Event listener
 document.getElementById("get-joke").addEventListener("click", getJoke);
