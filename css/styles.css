@@ -1,0 +1,99 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Font & Background */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Card Container */
+  .card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Student Info */
+  #student-info {
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: #666;
+  }
+  
+  /* Button */
+  button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #0077ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
+  }
+  
+  button:hover {
+    background-color: #005edb;
+  }
+  
+  button:active {
+    background-color: #004bb5;
+  }
+  
+  /* Joke Display */
+  #joke-container {
+    font-size: 18px;
+    color: #444;
+    margin-top: 1rem;
+    min-height: 50px;
+    transition: opacity 0.5s ease;
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s;
+  }
+  
+  /* Link */
+  a {
+    color: #0077ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
